@@ -1,0 +1,17 @@
+li , #nav {
+    display: block;
+    padding: 10px;
+    border-style: solid;
+    width: 100px;
+    text-align: center;
+    background-color: dodgerblue;
+}
+
+.drop-down {
+    z-index: 999;
+    position: absolute;
+}
+
+.invisible {
+    display: none;
+}
