@@ -1,0 +1,38 @@
+#container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#container div {
+    margin: 20px 0;
+    
+}
+
+img {
+    width: 200px;
+    height: 150px; 
+    transition: transform ease-in-out 300ms ;  
+}
+
+#dots {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    gap: 10px;
+}
+
+#dots div:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+
+#dots div:active {
+    color: white;
+    background-color: black;
+    border-radius: 2px;
+}
+
+.focus {
+    transform:scale(150%);
+}
